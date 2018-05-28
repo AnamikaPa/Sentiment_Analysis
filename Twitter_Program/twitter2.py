@@ -14,10 +14,10 @@ import json
 #c = conn.cursor()
 
 #consumer key, consumer secret, access token, access secret.
-ckey="NLE1yzWkOwk5fTWfRSO2Vi8PN"
-csecret="BZ2Ciol4Q40kiCP6X5tTfKmMvRSDSf95TCCYN6pszVoYz7UML3"
-atoken="1157716766-HmcvLmZK1e5pfFis21OwTprjK1Co90VhRDYXUtb"
-asecret="JvpCNGwnfde0xGRyAetqjcQpngR67AyrVTjaCkTMhsYwY"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 
 
 class listener(StreamListener):
