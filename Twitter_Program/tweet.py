@@ -1,12 +1,5 @@
 import twitter, re, datetime, pandas as pd
-'''
 
-
-CONSUMER_KEY = "7RqMuLZrC4MQeEi9BbAR9KRND"
-CONSUMER_SECRET = "Eg0BVQOmh3TQoaAhNC44itJjOfrzywNEm8DZsuIQVlNZEolesU"
-ACCESS_TOKEN = '866665133380050944-1WPrKPSNTZPCKPQvYZQ4KUzrpqYKw8y'
-ACCESS_TOKEN_SECRET = 'KpvUA7ntqWJ966RxlCnn6rquwG9MXmFhWhZLtP8f2ahg7'
-'''
 class twitterminer():
 
     request_limit   =   20    
@@ -15,10 +8,10 @@ class twitterminer():
    
 	
     twitter_keys = {
-        'consumer_key': "OCDxryFzCmDnngoMfrhRzxLdF"      , #add your consumer key
-        'consumer_secret': "lPtZ1CCuuJLnJSjhTUDajjtxoX0NVgVNZHbjoW5UnlcORmdkzr"   , #add your consumer secret key
-        'access_token_key':  "866665133380050944-pRqHcDcBMMupvDfSAifRjnIpcGIGMnX"  , #add your access token key
-        'access_token_secret': "zb183wyV8aXUrgBDOMOk4yyUjdGfbOeBYVjkAIVF1jGCL" #add your access token secret key
+        'consumer_key': ""      , #add your consumer key
+        'consumer_secret': ""   , #add your consumer secret key
+        'access_token_key':  ""  , #add your access token key
+        'access_token_secret': "" #add your access token secret key
     }
     
     def __init__(self,  request_limit = 100):
